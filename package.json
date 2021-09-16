@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "npm run development",
+    "prod": "npm run production",
+    "development": "node_modules/postcss-cli/bin/postcss --env development --verbose --o dist/css/styles.css src/css/styles.css -m",
+    "production": "node_modules/postcss-cli/bin/postcss --env production --verbose --o dist/css/styles.min.css src/css/styles.css -m"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.0",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.1.4"
+  }
+}
