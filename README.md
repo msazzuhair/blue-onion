@@ -1,6 +1,6 @@
 # Blue Onion
 
-This html template is made using [Tailwind CSS](https://tailwindcss.com/)
+This html template is made using [Tailwind CSS](https://tailwindcss.com/). It is still not responsive, because I am too lazy to continue this.
 
 ## Preview
 
